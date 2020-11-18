@@ -1,0 +1,14 @@
+{
+    "name": "Chrome_Extension",
+    "version": "1.0",
+    "description": "Gathers text from HTML",
+    "permissions": ["storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "extension.html"
+    },
+    "manifest_version": 2
+  }
