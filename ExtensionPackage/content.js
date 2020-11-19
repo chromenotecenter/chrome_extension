@@ -6,12 +6,14 @@ chrome.contextMenus.create({
     onclick: addToLog
 });
 
-function addToLog(){
-    if (document.getSelection().toString().length) {
-        let selection = document.getSelection().toString();    
+function addToLog(word){
+    if (word.selectionText.length != 0) {
+        let selection = word.selectionText;    
         console.log(selection);
+        alert(selection);
     } else{
         console.log("The Selection was empty");
+        alert("There was nothing highlighted...")
     }
 
 }
