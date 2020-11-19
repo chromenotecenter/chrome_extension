@@ -1,11 +1,15 @@
 {
     "name": "Chrome_Extension",
-    "version": "1.0",
+    "version": "2.1.1",
     "description": "Gathers text from HTML",
-    "permissions": ["storage"],
+    "permissions": [
+      "contextMenus"
+    ],
+    "icons": {
+      "16": "assets/search.png"
+    },
     "background": {
-      "scripts": ["background.js"],
-      "persistent": false
+      "page": "extension.html"
     },
     "page_action": {
       "default_popup": "extension.html"
