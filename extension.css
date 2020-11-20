@@ -1,0 +1,10 @@
+:root{
+    margin:0;
+    padding:0;
+}
+.popup_body{
+    margin: 0;
+    padding: 5px;
+    width: 300px;
+    background-image: repeating-radial-gradient(#f8f8f8, #a8a8a8);
+}

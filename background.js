@@ -1,10 +1,13 @@
-//Maybe make it so that people can have the option to use right click to save or just click on the save button.
+//This is nothing at te moment.
 
 chrome.contextMenus.create({
+    id: "collect_text",
     title: "Save that Mother Trucker!",
     contexts:["selection"],
     onclick: addToLog
 });
+
+
 
 function addToLog(word){
     if (word.selectionText.length != 0) {

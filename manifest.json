@@ -1,0 +1,22 @@
+{
+    "name": "Chrome_Extension",
+    "version": "2.1.1",
+    "description": "Gathers text from HTML",
+    "permissions": [
+      "contextMenus",
+      "<all_urls>",
+      "activeTab"
+    ],
+    "icons": {
+      "16": "assets/notebook.png",
+      "48": "assets/notebook48.png",
+      "128": "assets/notebook128.png"
+    },    
+    "background": {
+      "page": "background.html"
+    },    
+    "browser_action": {
+      "default_popup": "extension.html"
+    },
+    "manifest_version": 2
+  }
