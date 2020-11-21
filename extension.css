@@ -1,4 +1,7 @@
 :root{
+    
+}
+body{
     margin:0;
     padding:0;
 }
@@ -6,5 +9,33 @@
     margin: 0;
     padding: 5px;
     width: 300px;
-    background-image: repeating-radial-gradient(#f8f8f8, #a8a8a8);
+    background-image: repeating-radial-gradient(#faf9f9, #f7f7f7);
+}
+
+.popup_body h3{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.lgninlink{
+    margin-top: 3px;
+    text-decoration: none;
+}
+
+.lgninlink:hover {
+    text-decoration: underline;
+    color: #0d00c5;
+}
+
+
+footer{
+    margin: 0;
+    padding: 2px;
+    color: #f8f8f8;
+    background-color: #111111;    
+}
+
+footer p{
+    margin: 0;
 }

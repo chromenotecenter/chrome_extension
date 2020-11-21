@@ -2,6 +2,10 @@
 <html>
 <head>
     <link rel="stylesheet" href="extension.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
 </head>
 <body>
     <div class="popup_body">
@@ -11,10 +15,17 @@
             </h3>
             <p>Please log in</p>
         </div>
-        <div class="login_container">
-
-        </div>
+        <form class="login_container">
+            <input type='text' id='usrnme' class='login_box' placeholder='Username'><br><br>
+            <input type='password' id='psswrd' class='login_box' placeholder='Password'><br><br>
+            <input type='submit' id='lgn' value='login' class='lgnbtn'>
+        </form>
+        <a href='#' class='lgninlink'>Forgot Password</a><br>
+        <a href='#' class='lgninlink'>Create Account</a>
     </div>
     <script src='content.js'></script>
 </body>
+<footer>
+    <p>Made with love by Zeth <3</p>
+</footer>
 </html>
